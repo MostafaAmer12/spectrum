@@ -86,7 +86,7 @@ class HomeView extends StatelessWidget {
                         navigateTo(
                             context: context,
                             screen: const WebViewContainer(
-                              gameUrl: 'https://www.jigsawplanet.com/',
+                              gameUrl: 'https://www.autistichub.com/play/jigsawpuzzle/index.html',
                               gameName: 'Puzzle',
                             ));
                       }),
@@ -185,7 +185,7 @@ class HomeView extends StatelessWidget {
               width: 4,
             ),
             Text(
-              '1432 XP',
+              '1432',
               style: TextStyle(color: AppStyles.primaryB),
             ),
             Spacer(),
