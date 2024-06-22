@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 
-void navigateNamedTo(
-    {required BuildContext context, required String screen, var argument}) {
-  Navigator.pushNamed(context, screen, arguments: argument);
-}
 
 void navigateAndFinish(
     {required BuildContext context, required Widget screen, var argument}) {
@@ -36,16 +32,3 @@ void navigateAndReplace(
     ),
   );
 }
-
-// void navigateTo({required BuildContext context,required String screen,var argument}){
-//   Navigator.pushNamed(context, screen,arguments: argument);
-// }
-
-// void navigateAndFinish({required BuildContext context,required String screen,var argument}){
-//   Navigator.pushNamedAndRemoveUntil(
-//     context,
-//     screen,
-//     (route) =>false,
-//     arguments: argument,
-//   );
-// }
